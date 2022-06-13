@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script src="https://kit.fontawesome.com/32c3c1affa.js" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+	<link href="https://fonts.googleapis.com/css2?family=Signika&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/voluntario.css">
+	<title>Petit</title>
+</head>
+<body>
+	<header class="menu">
+		<div class="logo">
+			<img width="90" src="img/logo.png">
+		</div><!-- logo -->
+		<nav class="desktop">
+			<ul>
+				<li><a href="index.html">home</a></li>
+				<li><a href="adocao.html">adoção</a></li>
+				<li><a href="index.html#sobre">sobre nós</a></li>
+				<li><a style="font-weight: bold;" href="voluntario.html">me voluntariar</a></li>
+			</ul>
+		</nav><!-- desktop -->
+		
+		<div class="right">
+			<button><a href="doar.html">Doar</a></button>
+			<i class="fa-solid fa-phone"></i>
+			<span>(41)99999-1111</span>
+		</div><!-- right -->
+
+		<div class="clear"></div>
+	</header><!-- menu -->
+
+
+
+	<section class="banner">
+		<div class="texto">
+			<h2>Me voluntariar</h2>
+			<p>Torne-se voluntário e venha fazer parte da nossa equipe!</p>
+		</div>
+		<img width="300" src="img/voluntarios.png">
+	</section><!-- banner -->
+
+	<section class="formulario">
+		<div class="informacoes">
+			<h2>Qual será o próximo passo?</h2>
+			<p>Siga as etapas a seguir para concluir sua inscrição</p>
+				<div class="etapas-single">
+					<div class="circle">
+						<div class="line"></div>
+						<span>1</span>
+					</div><!-- circle -->
+					<div class="etapas__descricao">
+						<h3>Entraremos em contato</h3>
+						<p>O responsável pelo setor escolhido entrará em contato com você para confirmar os dados e explicar como funciona o voluntariado.</p>
+					</div><!-- etapas__descricao -->
+					<div class="clear"></div>
+				</div><!-- etapas-single -->
+
+				<div class="etapas-single">
+					<div class="circle">
+						<div class="line"></div>
+						<span>2</span>
+					</div><!-- cicle -->
+					<div class="etapas__descricao">
+						<h3>Definição de horários</h3>
+						<p>Você será convidado a comparecer à unidade escolhida para conhecer o local, as atividades que irá exercer e discutir seus horários.</p>
+					</div><!-- etapas__descricao -->
+					<div class="clear"></div>
+				</div><!-- etapas-single -->
+
+				<div class="etapas-single">
+					<div class="circle">
+						<div class="line"></div>
+						<span>3</span>
+					</div><!-- cicle -->
+					<div class="etapas__descricao">
+						<h3>Treinamento</h3>
+						<p>Nas primeiras duas semanas você será acompanhado por um dos nossos voluntários mais experientes para aprender a realizar suas atividades.</p>
+					</div><!-- etapas__descricao -->
+					<div class="clear"></div>
+				</div><!-- etapas-single -->
+
+				<div class="etapas-single">
+					<div class="circle">
+						<span>4</span>
+					</div><!-- cicle -->
+					<div class="etapas__descricao">
+						<h3>Partiu salvar vidas!</h3>
+						<p>Pronto! você é agora um voluntário preparado para nos ajudar em nossa missão de ajudar os animais.</p>
+					</div><!-- etapas__descricao -->
+					<div class="clear"></div>
+				</div><!-- etapas-single -->
+		</div><!-- informacoes -->
+
+
+		<form id="form-voluntario">
+			<h2>Preencha o formulário com os seus dados</h2>
+			<span>Por favor, preencha todos os campos.</span>
+			<div style="margin-top:10px" class="inline">
+				<div class="input-single" style="width:60%">
+					<p>Nome</p>
+					<input type="text" name="">
+				</div><!-- input-single -->
+
+				<div class="input-single" style="width:40%">
+					<p>CPF</p>
+					<input id="cpf" type="text" name="">
+				</div><!-- input-single -->
+			</div><!-- inline -->
+
+			<div class="inline">
+				<div class="input-single" style="width:80%">
+					<p>Endereço</p>
+					<input type="text" name="">
+				</div><!-- input-single -->
+
+				<div class="input-single" style="width:20%">
+					<p>Nº</p>
+					<input id="num" type="text" name="">
+				</div><!-- input-single -->
+			</div><!-- inline -->
+
+			<div class="inline">
+				<div class="input-single" style="width:50%">
+					<p>Bairro</p>
+					<input type="text" name="">
+				</div><!-- input-single -->
+
+				<div class="input-single" style="width:30%">
+					<p>Cidade</p>
+					<input type="text" name="">
+				</div><!-- input-single -->
+
+				<div class="input-single" style="width:20%">
+					<p>Estado</p>
+					<input type="text" name="" maxlength="2" style="font-">
+				</div><!-- input-single -->
+			</div><!-- inline -->
+			
+			<p>E-mail</p>
+			<input id="email" style="width:98%" type="text" name="">
+
+			<p>Telefone</p>
+			<input id="fone" style="width:98%" type="text" name="">
+
+			<div class="inline">
+				<div class="input-single">
+					<p>Unidade</p>
+					<select>
+						<option>Curitiba</option>
+						<option>São Paulo</option>
+					</select>
+				</div><!-- input-single -->
+
+				<div class="input-single">
+					<p>Setor</p>
+					<select>
+						<option>Resgate</option>
+						<option>Cuidados</option>
+						<option>Logística</option>
+					</select>
+				</div><!-- input-single -->
+			</div><!-- inline -->
+
+			<input type="button" name="" value="Enviar" class="btn">
+			
+		</form>
+	</section><!-- formulario -->
+
+
+
+	<footer>
+		<div class="info">
+			<div style="text-align:center" class="info-single">
+				<img style="margin-top:-10px" width="100" src="img/logo.png">
+				<br>
+				<a href=""><i class="fa-brands fa-facebook-f"></i></a>
+				<a href=""><i class="fa-brands fa-instagram"></i></a>
+				<a href=""><i class="fa-brands fa-youtube"></i></a>
+				<a href=""><i class="fa-brands fa-twitter"></i></a>
+			</div><!-- info-single -->
+
+			<div class="info-single">
+				<h2>Viu algum animal precisando de ajuda?
+				Entre em contato
+				</h2>
+				<p>(41)99999-1111</p>
+			</div><!-- info-single -->
+
+			<div class="info-single">
+				<h2>Nossas Unidades</h2>
+				<p style="margin-bottom:5px">Rua X, 333, Rebouças, Curitiba-PR</p>
+				<p>Rua Y, 111, Morumbi, São Paulo-SP</p>
+			</div><!-- info-single -->
+
+			<div class="info-single">
+				<h2>Ajude-nos com uma doação</h2>
+				<button><a href="doar.html">Doar</a></button>
+			</div><!-- info-single -->
+		</div><!-- info -->
+	</footer>
+
+	<template id="my-template">
+	  <swal-title>
+	    Inscrição realizada com sucesso
+	  </swal-title>
+	  <swal-icon type="success" color="green"></swal-icon>
+	  <swal-button type="confirm">
+	    OK
+	  </swal-button>
+	  <swal-button type="cancel">
+	    Fechar
+	  </swal-button>
+	  <swal-param name="allowEscapeKey" value="false" />
+	  <swal-param
+	    name="customClass"
+	    value='{ "popup": "my-popup" }' />
+	</template>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+	<script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+	<script type="text/javascript" src="js/jquery.mask.js"></script>
+	<script type="text/javascript" src="js/functions.js"></script>
+</body>
+</html>

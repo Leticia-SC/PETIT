@@ -1,0 +1,294 @@
+/*CONFIGURAÇÕES GERAIS*/
+*{
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html,body{
+	height: 100%;
+	font-family: 'Signika';
+}
+
+.container{
+	width: 90%;
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+.clear{
+	clear: both;
+}
+
+/*INICIO SESSÃO HEADER*/
+header{
+	padding:10px 2%;
+}
+
+header div.logo{
+	float: left;
+}
+
+header nav.desktop{
+	margin-left: 20px;
+	float: left;
+	position: relative;	
+	top:12px;
+}
+
+header nav.desktop ul{
+	list-style-type: none;
+}
+
+header nav.desktop ul li{
+	float: left;
+	font-size: 18px;
+	padding:0 20px;
+}
+
+header nav.desktop a{
+    color: black;
+    text-decoration: none;
+}
+
+header nav.desktop a:hover{
+	color: #ffae02;
+}
+
+header .right{
+	float: right;
+	position: relative;
+	top: 12px;
+}
+
+header .right button{
+	margin-right: 30px;
+	border: none;
+}
+
+header .right a{
+	padding: 5px 20px;
+	font-size: 16px;
+	border: 1px solid #ffae02;
+	color: #ffae02;
+	border-radius: 10px;
+	background-color: white;
+	text-decoration: none;
+}
+
+header .right a:hover{
+	background-color: #ffae02;
+	color: white;
+}
+
+header .right span{
+	font-size: 18x;
+	margin-left: 5px;
+}
+/*FIM SESSÃO HEADER*/
+
+
+
+/*INICIO SESSÃO DOAR*/
+.doar{
+	padding: 40px;
+	text-align: center;
+}
+
+.formulario{
+	background-color: #f1f1f1;
+	width: 70%;
+	margin: 0 auto;
+	padding: 30px;
+	border-radius: 30px;
+	box-shadow: 5px 5px 15px -3px rgba(0,0,0,0.55);
+	margin-top: -3px;
+	margin-bottom: 30px;
+}
+
+.formulario h2{
+	color: #ffae02;
+	font-size: 40px;
+}
+
+.valor p:first-of-type{
+	padding: 5px;
+	border: 1px solid #aaa;
+	background-color: #f1f1f1;
+	position: absolute;
+	margin-top: 20px;
+	font-size: 22px;
+	width: 40px;
+	height: 40px;
+}
+
+.formulario .valor{
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.formulario .valor h2{
+	font-size: 25px;
+	color: black;
+	margin-bottom: 20px;
+}
+
+.escolher,
+.digitar{
+	width: 50%;
+	padding: 20px 0;
+}
+
+.escolher{
+	border-right: 1px solid #aaa;
+}
+
+.valor .escolher span{
+	border: 1px solid #ffae02;	
+	border-radius: 8px;
+	padding: 8px;
+	margin: 0 5px;
+	font-size: 16px;
+}
+
+.valor .escolher span:hover{
+	cursor: pointer;
+	background-color: #ffae02;
+	color: white;
+}
+
+.valor .digitar input{
+	padding: 5px;
+	outline: none;
+	border: 1px solid #aaa;
+	margin-top: -5px;
+	font-size: 16px;
+	width: 300px;
+}
+
+.pagamento{
+	display: flex;
+	justify-content: space-evenly;
+}
+
+form,
+.concluir{
+	margin-top: 50px;
+	text-align: left;
+	width: 40%;
+}
+
+form p,
+.concluir p{
+	font-size: 16px;
+	margin-bottom: 3px;
+}
+
+.inline{
+	display: flex;
+	justify-content: space-around;
+}
+
+.input-single{
+	margin-bottom: 15px;
+}
+
+.input-single input{
+	outline: none;
+	border: 1px solid #aaa;
+	font-size: 15px;
+	padding: 5px;
+	width: 100%;
+}
+
+.concluir textarea{
+	resize: none;
+	outline: none;
+	border: 1px solid #aaa;
+	padding: 5px;
+	width: 100%;
+	min-height: 80px;
+	margin-bottom: 20px;
+}
+
+.concluir button{
+	width: 100%;
+	margin-top: 10px;
+	padding: 15px 0;
+	font-size: 20px;
+	background-color: #ffae02;
+	border: 1px solid #ffae02;
+	color: white;
+	font-family: 'Signika';
+	border-radius: 10px;
+}
+
+.concluir button:hover{
+	cursor: pointer;
+	background: none;
+	color: #ffae02;
+}
+/*FIM SESSÃO DOAR*/
+
+
+
+/*INICIO SESSÃO FOOTER*/
+footer{
+	background-color: #f1f1f1;
+}
+
+.info{
+	padding: 30px 0;
+	display: flex;
+}
+
+.info-single{
+	width: 25%;
+	padding: 0 30px;
+	letter-spacing: 0.6px;
+}
+
+.info-single a{
+	color: #ffae02;
+	font-size: 20px;
+	margin-right: 5px;
+	border: 1px solid #ffae02;
+	border-radius: 30px;
+	padding: 5px;
+	text-align: center;
+}
+
+.info-single i{
+	width: 26px;
+	height: 26px;
+	margin-top: 10px;
+}
+
+.info-single a:hover{
+	background-color: #ffae02;
+	color: white;
+}
+
+.info-single h2{
+	font-size: 18px;
+	margin-bottom: 10px;
+}
+
+.info-single button{
+	border: none;
+	margin-top: 15px;
+}
+
+.info-single button a{
+	text-decoration: none;
+	padding: 10px 90px;
+	border-radius: 15px;
+	background-color: #ffae02;
+	color: white;
+}
+
+.info-single button a:hover{
+	background: none;
+	color: #ffae02;
+}
+/*FIM SESSÃO FOOTER*/

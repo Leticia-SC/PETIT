@@ -1,0 +1,318 @@
+/*CONFIGURAÇÕES GERAIS*/
+*{
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html,body{
+	height: 100%;
+	font-family: 'Signika';
+}
+
+.container{
+	width: 90%;
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+.clear{
+	clear: both;
+}
+
+/*INICIO SESSÃO HEADER*/
+header{
+	padding:10px 2%;
+}
+
+header div.logo{
+	float: left;
+}
+
+header nav.desktop{
+	margin-left: 20px;
+	float: left;
+	position: relative;	
+	top:12px;
+}
+
+header nav.desktop ul{
+	list-style-type: none;
+}
+
+header nav.desktop ul li{
+	float: left;
+	font-size: 18px;
+	padding:0 20px;
+}
+
+header nav.desktop a{
+    color: black;
+    text-decoration: none;
+}
+
+header nav.desktop a:hover{
+	color: #ffae02;
+}
+
+header .right{
+	float: right;
+	position: relative;
+	top: 12px;
+}
+
+header .right button{
+	margin-right: 30px;
+	border: none;
+}
+
+header .right a{
+	padding: 5px 20px;
+	font-size: 16px;
+	border: 1px solid #ffae02;
+	color: #ffae02;
+	border-radius: 10px;
+	background-color: white;
+	text-decoration: none;
+}
+
+header .right a:hover{
+	background-color: #ffae02;
+	color: white;
+}
+
+header .right span{
+	font-size: 18x;
+	margin-left: 5px;
+}
+/*FIM SESSÃO HEADER*/
+
+
+
+/*INICIO SESSÃO BANNER*/
+.banner{
+	padding: 30px 50px 0 50px;
+	background-color: #ffae02;
+	color: white;
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.banner .texto{
+	width: 60%;
+	margin-top: 9%;
+}
+
+.banner h2{
+	font-size: 40px;
+}
+
+.banner p{
+	font-size: 20px;
+}
+/*FIM SESSÃO BANNER*/
+
+
+
+/*INICIO SESSÃO FORMULARIO*/
+.formulario{
+	padding: 50px;
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.informacoes{
+	width: 50%;
+}
+
+.informacoes h2{
+	font-size: 40px;
+	margin-bottom: 5px;
+}
+
+.informacoes p{
+	font-size: 18px;
+	margin-bottom: 30px;
+}
+
+.etapas-single{
+	margin-bottom: 40px;
+}
+
+.etapas-single .circle{
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	border: 1px solid #aaa;
+	position: relative;
+	float: left;
+}
+
+.circle span{
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%,-50%);
+	font-size: 17px;
+	color: #ffae02;
+	font-weight: bold;
+}
+
+.line{
+	position: absolute;
+	top: 29px;
+	left: 50%;
+	transform: translate(-50%,0);
+	height: 73px;
+	width: 1px;
+	background-color: #aaa;
+}
+
+.etapas__descricao{
+	float: left;
+	width: calc(100% - 100px);
+	padding: 0 20px;
+	margin-top: 5px;	
+}
+
+.etapas__descricao h3{
+	color: #ffae02;
+	font-size: 18px;
+}
+
+.etapas__descricao p{
+	font-size: 15px;
+	margin: 0;
+}
+
+form{
+	background-color: #f1f1f1;
+	padding: 30px 40px;
+	border-radius: 20px;
+	width: 40%;
+}
+
+form h2{
+	margin-bottom: 20px;
+	border-bottom: 1px solid #aaa;
+	padding-bottom: 20px;
+}
+
+form p{
+	font-size: 18px;
+	margin-bottom: 3px;
+}
+
+form input{
+	margin-bottom: 30px;
+	border: none;
+	border-bottom: 1px solid black;
+	background: none;
+	outline: none;
+}
+
+form .inline{
+	display: flex;
+	justify-content: space-evenly;
+}
+
+form input{
+	width: 90%;
+	padding: 5px 0 3px 5px;
+}
+
+form select{
+	outline: none;
+	font-size: 15px;
+	padding: 3px;
+}
+
+form .btn{
+	background-color: #ffae02; 
+	border: 1px solid #ffae02;
+	margin-top: 30px;
+	font-size:18px;
+	padding: 15px 0;
+	color: white;
+	border-radius: 10px;
+	width: 100%;
+	margin-bottom: 0;
+	
+}
+
+form .btn:hover{
+	background: none;
+	border: 1px solid #ffae02;
+	color: #ffae02;
+	cursor: pointer;
+}
+
+form span{
+	display: none;
+	color: #f00;
+	font-size: 15px;
+}
+/*FIM SESSÃO FORMULARIO*/
+
+
+
+/*INICIO SESSÃO FOOTER*/
+footer{
+	background-color: #f1f1f1;
+}
+
+.info{
+	padding: 30px 0;
+	display: flex;
+}
+
+.info-single{
+	width: 25%;
+	padding: 0 30px;
+	letter-spacing: 0.6px;
+}
+
+.info-single a{
+	color: #ffae02;
+	font-size: 20px;
+	margin-right: 5px;
+	border: 1px solid #ffae02;
+	border-radius: 30px;
+	padding: 5px;
+	text-align: center;
+}
+
+.info-single i{
+	width: 26px;
+	height: 26px;
+	margin-top: 10px;
+}
+
+.info-single a:hover{
+	background-color: #ffae02;
+	color: white;
+}
+
+.info-single h2{
+	font-size: 18px;
+	margin-bottom: 10px;
+}
+
+.info-single button{
+	border: none;
+	margin-top: 15px;
+}
+
+.info-single button a{
+	text-decoration: none;
+	padding: 10px 90px;
+	border-radius: 15px;
+	background-color: #ffae02;
+	color: white;
+}
+
+.info-single button a:hover{
+	background: none;
+	color: #ffae02;
+}
+/*FIM SESSÃO FOOTER*/

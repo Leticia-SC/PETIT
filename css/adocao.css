@@ -1,0 +1,259 @@
+/*CONFIGURAÇÕES GERAIS*/
+*{
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html,body{
+	height: 100%;
+	font-family: 'Signika';
+}
+
+.container{
+	width: 90%;
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+.clear{
+	clear: both;
+}
+
+/*INICIO SESSÃO HEADER*/
+header{
+	padding:10px 2%;
+}
+
+header div.logo{
+	float: left;
+}
+
+header nav.desktop{
+	margin-left: 20px;
+	float: left;
+	position: relative;	
+	top:12px;
+}
+
+header nav.desktop ul{
+	list-style-type: none;
+}
+
+header nav.desktop ul li{
+	float: left;
+	font-size: 18px;
+	padding:0 20px;
+}
+
+header nav.desktop a{
+    color: black;
+    text-decoration: none;
+}
+
+header nav.desktop a:hover{
+	color: #ffae02;
+}
+
+header .right{
+	float: right;
+	position: relative;
+	top: 12px;
+}
+
+header .right button{
+	margin-right: 30px;
+	border: none;
+}
+
+header .right a{
+	padding: 5px 20px;
+	font-size: 16px;
+	border: 1px solid #ffae02;
+	color: #ffae02;
+	border-radius: 10px;
+	background-color: white;
+	text-decoration: none;
+}
+
+header .right a:hover{
+	background-color: #ffae02;
+	color: white;
+}
+
+header .right span{
+	font-size: 18x;
+	margin-left: 5px;
+}
+/*FIM SESSÃO HEADER*/
+
+
+
+/*INICIO SESSÃO ANIMAIS*/
+.animais{
+	padding: 30px 2%;
+}
+
+.animais .titulo{
+	position: relative;
+	margin-bottom: 80px;
+}
+
+.animais .titulo .line{
+	position: relative;
+	top: 27px;
+	width: 98%;
+	height: 2px;
+	background-color: #ffae02;
+}
+
+.animais .titulo h2{
+	font-size: 38px;
+	margin-bottom: 30px;
+	position: absolute;
+	padding: 0 15px;
+	background-color: white;
+	margin-left: 100px;
+}
+
+.info-animal{
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.info-animal i{
+	font-size: 70px;
+	margin-top: 120px;
+	color: #ffae02;
+}
+
+.info-animal i:hover{
+	cursor: pointer;
+}
+
+.info-animal-single{
+	margin: 0 20px;
+	padding: 30px;
+	background-color: #f1f1f1;
+	border-radius: 50px;
+}
+
+.descricao{
+	float: left;
+	width: 45%;
+}
+
+.info-animal-single img{
+	float: left;
+	width: 55%;
+}
+
+.descricao h2{
+	font-size: 30px;
+	margin-bottom: 0px;
+	color: #ffae02;
+}
+
+.descricao p{
+	font-size: 20px;
+	margin-bottom: 15px;
+}
+
+.descricao .dados-single{
+	margin-bottom: 5px;
+}
+
+.descricao .dados-single p{
+	font-size: 18px;
+	margin-bottom: 0px;
+}
+
+.descricao .dados-single i{
+	margin: 0 2px;
+	color: #c7c7c7;
+	font-size: 18px;
+}
+
+.descricao button{
+	border: none;
+	margin-top: 20px;
+}
+
+.descricao a{
+	background-color: #ffae02;
+	text-decoration: none;
+	color: white;
+	padding: 10px 23px;
+	font-size: 16px;
+	border-radius: 10px;
+}
+
+.descricao a:hover{
+	background: none;
+	color: #ffae02;
+	border: 1px solid #ffae02;
+}
+/*FIM SESSÃO ANIMAIS*/
+
+
+/*INICIO SESSÃO FOOTER*/
+footer{
+	background-color: #f1f1f1;
+	margin-top: 50px;
+}
+
+.info{
+	padding: 30px 0;
+	display: flex;
+}
+
+.info-single{
+	width: 25%;
+	padding: 0 30px;
+	letter-spacing: 0.6px;
+}
+
+.info-single a{
+	color: #ffae02;
+	font-size: 20px;
+	margin-right: 5px;
+	border: 1px solid #ffae02;
+	border-radius: 30px;
+	padding: 5px;
+	text-align: center;
+}
+
+.info-single i{
+	width: 26px;
+	height: 26px;
+	margin-top: 10px;
+}
+
+.info-single a:hover{
+	background-color: #ffae02;
+	color: white;
+}
+
+.info-single h2{
+	font-size: 18px;
+	margin-bottom: 10px;
+}
+
+.info-single button{
+	border: none;
+	margin-top: 15px;
+}
+
+.info-single button a{
+	text-decoration: none;
+	padding: 10px 90px;
+	border-radius: 15px;
+	background-color: #ffae02;
+	color: white;
+}
+
+.info-single button a:hover{
+	background: none;
+	color: #ffae02;
+}
+/*FIM SESSÃO FOOTER*/
